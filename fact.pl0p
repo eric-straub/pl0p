@@ -1,0 +1,15 @@
+var f, n;
+procedure fact;
+	var ans1;
+	do
+		ans1:=n;
+		n:= n-1;
+		when n = 0 do f := 1;
+		when n > 0 do call fact;
+		f:=f*ans1;
+	od;
+do
+	read n;
+	call fact;
+	write f
+od.

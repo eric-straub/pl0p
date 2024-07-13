@@ -1,0 +1,5 @@
+var n;
+do
+	read n;
+	write n;
+od.

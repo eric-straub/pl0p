@@ -1,0 +1,31 @@
+var sel, ans, opp, adj, hyp;
+procedure sin;
+    do
+        ans := (opp*1000/hyp);
+    od;
+
+procedure cos;
+    do
+        ans := (adj*1000/hyp);
+    od;
+
+procedure tan;
+    do
+        ans := (opp*1000/adj);
+    od;
+
+do
+    read opp;
+    read adj;
+    read hyp;
+    // read sel;
+    // when sel = 1 do call sin;
+    // when sel = 2 do call cos;
+    // when sel = 3 do call tan;
+    call sin;
+    write ans;
+    call cos;
+    write ans;
+    call tan;
+    write ans;
+od.
